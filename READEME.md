@@ -1,7 +1,9 @@
 # Description
 
+Designed with the goal of a long life time of usage with very easy maintenance and servicing.
+
 5p 18650 Holder
-- per cell fusing
+- per cell fusing using 5x20mm Glass Fuses
 - blown fuse indicator LEDs
 - m4 mounting pads.
 
