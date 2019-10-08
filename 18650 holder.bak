@@ -1,0 +1,497 @@
+EESchema Schematic File Version 4
+LIBS:18650 holder-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5DA7E454
+P 6950 6100
+F 0 "H3" H 7050 6149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7050 6058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 6950 6100 50  0001 C CNN
+F 3 "~" H 6950 6100 50  0001 C CNN
+	1    6950 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DA7E45A
+P 6950 6200
+F 0 "#PWR0103" H 6950 5950 50  0001 C CNN
+F 1 "GND" H 6955 6027 50  0000 C CNN
+F 2 "" H 6950 6200 50  0001 C CNN
+F 3 "" H 6950 6200 50  0001 C CNN
+	1    6950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DA7E460
+P 6250 6100
+F 0 "H2" H 6350 6149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6350 6058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 6250 6100 50  0001 C CNN
+F 3 "~" H 6250 6100 50  0001 C CNN
+	1    6250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DA7E466
+P 6250 6200
+F 0 "#PWR0104" H 6250 5950 50  0001 C CNN
+F 1 "GND" H 6255 6027 50  0000 C CNN
+F 2 "" H 6250 6200 50  0001 C CNN
+F 3 "" H 6250 6200 50  0001 C CNN
+	1    6250 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D9E95FC
+P 6100 4300
+F 0 "BT1" H 6218 4396 50  0000 L CNN
+F 1 "Battery_Cell" H 6218 4305 50  0000 L CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 6100 4360 50  0001 C CNN
+F 3 "~" V 6100 4360 50  0001 C CNN
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5D9EA751
+P 6850 4300
+F 0 "BT2" H 6968 4396 50  0000 L CNN
+F 1 "Battery_Cell" H 6968 4305 50  0000 L CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 6850 4360 50  0001 C CNN
+F 3 "~" V 6850 4360 50  0001 C CNN
+	1    6850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT3
+U 1 1 5D9EAE37
+P 7500 4250
+F 0 "BT3" H 7618 4346 50  0000 L CNN
+F 1 "Battery_Cell" H 7618 4255 50  0000 L CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 7500 4310 50  0001 C CNN
+F 3 "~" V 7500 4310 50  0001 C CNN
+	1    7500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT4
+U 1 1 5D9EB558
+P 8250 4250
+F 0 "BT4" H 8368 4346 50  0000 L CNN
+F 1 "Battery_Cell" H 8368 4255 50  0000 L CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 8250 4310 50  0001 C CNN
+F 3 "~" V 8250 4310 50  0001 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse fuse1
+U 1 1 5D9EBFC9
+P 6100 3950
+F 0 "fuse1" V 5903 3950 50  0000 C CNN
+F 1 "8a" V 5994 3950 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 6030 3950 50  0001 C CNN
+F 3 "~" H 6100 3950 50  0001 C CNN
+	1    6100 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse fuse2
+U 1 1 5D9ECCB5
+P 6850 3950
+F 0 "fuse2" V 6653 3950 50  0000 C CNN
+F 1 "8a" V 6744 3950 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 6780 3950 50  0001 C CNN
+F 3 "~" H 6850 3950 50  0001 C CNN
+	1    6850 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse fuse3
+U 1 1 5D9ED41F
+P 7500 3900
+F 0 "fuse3" V 7303 3900 50  0000 C CNN
+F 1 "8a" V 7394 3900 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 7430 3900 50  0001 C CNN
+F 3 "~" H 7500 3900 50  0001 C CNN
+	1    7500 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse fuse4
+U 1 1 5D9ED92B
+P 8250 3900
+F 0 "fuse4" V 8053 3900 50  0000 C CNN
+F 1 "8a" V 8144 3900 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 8180 3900 50  0001 C CNN
+F 3 "~" H 8250 3900 50  0001 C CNN
+	1    8250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D9EDEF5
+P 6100 4400
+F 0 "#PWR0105" H 6100 4150 50  0001 C CNN
+F 1 "GND" H 6105 4227 50  0000 C CNN
+F 2 "" H 6100 4400 50  0001 C CNN
+F 3 "" H 6100 4400 50  0001 C CNN
+	1    6100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D9EEE2A
+P 6850 4400
+F 0 "#PWR0106" H 6850 4150 50  0001 C CNN
+F 1 "GND" H 6855 4227 50  0000 C CNN
+F 2 "" H 6850 4400 50  0001 C CNN
+F 3 "" H 6850 4400 50  0001 C CNN
+	1    6850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D9EF3DF
+P 7500 4350
+F 0 "#PWR0107" H 7500 4100 50  0001 C CNN
+F 1 "GND" H 7505 4177 50  0000 C CNN
+F 2 "" H 7500 4350 50  0001 C CNN
+F 3 "" H 7500 4350 50  0001 C CNN
+	1    7500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D9EFA3A
+P 8250 4350
+F 0 "#PWR0108" H 8250 4100 50  0001 C CNN
+F 1 "GND" H 8255 4177 50  0000 C CNN
+F 2 "" H 8250 4350 50  0001 C CNN
+F 3 "" H 8250 4350 50  0001 C CNN
+	1    8250 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 3250
+Connection ~ 6850 3250
+Wire Wire Line
+	6850 3250 7200 3250
+$Comp
+L Mechanical:MountingHole_Pad VOUT1
+U 1 1 5D9F282A
+P 6100 3150
+F 0 "VOUT1" H 6200 3199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6200 3108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 6100 3150 50  0001 C CNN
+F 3 "~" H 6100 3150 50  0001 C CNN
+	1    6100 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 3250
+$Comp
+L Mechanical:MountingHole_Pad VOUT2
+U 1 1 5D9F3FFF
+P 8250 3150
+F 0 "VOUT2" H 8350 3199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8350 3108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 8250 3150 50  0001 C CNN
+F 3 "~" H 8250 3150 50  0001 C CNN
+	1    8250 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 3250
+$Comp
+L power:+5P #PWR0109
+U 1 1 5D9F4CE2
+P 7200 3250
+F 0 "#PWR0109" H 7200 3100 50  0001 C CNN
+F 1 "+5P" V 7215 3378 50  0000 L CNN
+F 2 "" H 7200 3250 50  0001 C CNN
+F 3 "" H 7200 3250 50  0001 C CNN
+	1    7200 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 3250
+Wire Wire Line
+	7200 3250 7500 3250
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D9F665D
+P 9000 4950
+F 0 "#FLG0101" H 9000 5025 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 5123 50  0000 C CNN
+F 2 "" H 9000 4950 50  0001 C CNN
+F 3 "~" H 9000 4950 50  0001 C CNN
+	1    9000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D9F7312
+P 8600 5000
+F 0 "#FLG0102" H 8600 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 5173 50  0000 C CNN
+F 2 "" H 8600 5000 50  0001 C CNN
+F 3 "~" H 8600 5000 50  0001 C CNN
+	1    8600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5D9F81C2
+P 8600 5000
+F 0 "#PWR0110" H 8600 4750 50  0001 C CNN
+F 1 "GND" H 8605 4827 50  0000 C CNN
+F 2 "" H 8600 5000 50  0001 C CNN
+F 3 "" H 8600 5000 50  0001 C CNN
+	1    8600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR0111
+U 1 1 5D9F9C50
+P 9000 4950
+F 0 "#PWR0111" H 9000 4800 50  0001 C CNN
+F 1 "+5P" V 9015 5078 50  0000 L CNN
+F 2 "" H 9000 4950 50  0001 C CNN
+F 3 "" H 9000 4950 50  0001 C CNN
+	1    9000 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 3250 8250 3250
+$Comp
+L Device:LED D1
+U 1 1 5DA0722B
+P 5600 3650
+F 0 "D1" V 5547 3728 50  0000 L CNN
+F 1 "led-cell1" V 5638 3728 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric-witharrow" H 5600 3650 50  0001 C CNN
+F 3 "~" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3250 6850 3250
+Wire Wire Line
+	6100 4100 5600 4100
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 3250 6100 3500
+Wire Wire Line
+	5600 3500 6100 3500
+Connection ~ 6100 3500
+Wire Wire Line
+	6100 3500 6100 3800
+Wire Wire Line
+	8250 3250 8250 3500
+Wire Wire Line
+	7500 3250 7500 3500
+Wire Wire Line
+	6850 3250 6850 3500
+$Comp
+L Device:LED D3
+U 1 1 5DA23A21
+P 6350 3650
+F 0 "D3" V 6297 3728 50  0000 L CNN
+F 1 "led-cell2" V 6388 3728 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric-witharrow" H 6350 3650 50  0001 C CNN
+F 3 "~" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 4100 6350 4100
+Wire Wire Line
+	6350 3500 6850 3500
+$Comp
+L Device:LED D5
+U 1 1 5DA24348
+P 7000 3650
+F 0 "D5" V 6947 3728 50  0000 L CNN
+F 1 "led-cell3" V 7038 3728 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric-witharrow" H 7000 3650 50  0001 C CNN
+F 3 "~" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 3500 7500 3500
+$Comp
+L Device:LED D7
+U 1 1 5DA2512D
+P 7750 3650
+F 0 "D7" V 7697 3728 50  0000 L CNN
+F 1 "led-cell4" V 7788 3728 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric-witharrow" H 7750 3650 50  0001 C CNN
+F 3 "~" H 7750 3650 50  0001 C CNN
+	1    7750 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 3500 8250 3500
+Connection ~ 6850 4100
+Connection ~ 8250 3500
+Wire Wire Line
+	8250 3500 8250 3750
+Connection ~ 7500 3500
+Wire Wire Line
+	7500 3500 7500 3750
+Connection ~ 6850 3500
+Wire Wire Line
+	6850 3500 6850 3800
+Wire Wire Line
+	8250 4050 7750 4050
+Wire Wire Line
+	7750 4050 7750 4100
+Connection ~ 8250 4050
+Wire Wire Line
+	7500 4050 7000 4050
+Wire Wire Line
+	7000 4050 7000 4100
+Connection ~ 7500 4050
+$Comp
+L Device:R_US R1
+U 1 1 5DA33A46
+P 5600 3950
+F 0 "R1" H 5668 3996 50  0000 L CNN
+F 1 "510" H 5668 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5640 3940 50  0001 C CNN
+F 3 "~" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5DA346F3
+P 6350 3950
+F 0 "R2" H 6418 3996 50  0000 L CNN
+F 1 "510" H 6418 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6390 3940 50  0001 C CNN
+F 3 "~" H 6350 3950 50  0001 C CNN
+	1    6350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5DA34D6C
+P 7000 3950
+F 0 "R3" H 7068 3996 50  0000 L CNN
+F 1 "510" H 7068 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7040 3940 50  0001 C CNN
+F 3 "~" H 7000 3950 50  0001 C CNN
+	1    7000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5DA35411
+P 7750 3950
+F 0 "R4" H 7818 3996 50  0000 L CNN
+F 1 "510" H 7818 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7790 3940 50  0001 C CNN
+F 3 "~" H 7750 3950 50  0001 C CNN
+	1    7750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT5
+U 1 1 5D9A7D30
+P 9850 4200
+F 0 "BT5" H 9968 4296 50  0000 L CNN
+F 1 "Battery_Cell" H 9968 4205 50  0000 L CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 9850 4260 50  0001 C CNN
+F 3 "~" V 9850 4260 50  0001 C CNN
+	1    9850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse fuse5
+U 1 1 5D9A7D36
+P 9850 3850
+F 0 "fuse5" V 9653 3850 50  0000 C CNN
+F 1 "8a" V 9744 3850 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 9780 3850 50  0001 C CNN
+F 3 "~" H 9850 3850 50  0001 C CNN
+	1    9850 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D9A7D3C
+P 9850 4300
+F 0 "#PWR04" H 9850 4050 50  0001 C CNN
+F 1 "GND" H 9855 4127 50  0000 C CNN
+F 2 "" H 9850 4300 50  0001 C CNN
+F 3 "" H 9850 4300 50  0001 C CNN
+	1    9850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5P #PWR03
+U 1 1 5D9A7FF9
+P 9850 3700
+F 0 "#PWR03" H 9850 3550 50  0001 C CNN
+F 1 "+5P" V 9865 3828 50  0000 L CNN
+F 2 "" H 9850 3700 50  0001 C CNN
+F 3 "" H 9850 3700 50  0001 C CNN
+	1    9850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D9B48FE
+P 9350 3600
+F 0 "D2" V 9297 3678 50  0000 L CNN
+F 1 "led-cell4" V 9388 3678 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric-witharrow" H 9350 3600 50  0001 C CNN
+F 3 "~" H 9350 3600 50  0001 C CNN
+	1    9350 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5D9B4907
+P 9350 3900
+F 0 "R5" H 9418 3946 50  0000 L CNN
+F 1 "510" H 9418 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9390 3890 50  0001 C CNN
+F 3 "~" H 9350 3900 50  0001 C CNN
+	1    9350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4050 9850 4050
+Wire Wire Line
+	9850 4050 9850 4000
+Connection ~ 9850 4000
+$Comp
+L power:+5P #PWR0101
+U 1 1 5D9BF1D9
+P 9350 3450
+F 0 "#PWR0101" H 9350 3300 50  0001 C CNN
+F 1 "+5P" V 9365 3578 50  0000 L CNN
+F 2 "" H 9350 3450 50  0001 C CNN
+F 3 "" H 9350 3450 50  0001 C CNN
+	1    9350 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
